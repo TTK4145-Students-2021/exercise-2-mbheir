@@ -2,7 +2,11 @@ Exercise 2 - Theory questions
 -----------------------------
 
 ### What is an atomic operation?
-> *Your answer here*
+> An atomic operation in concurrent programming is a conseptual operation that
+> * Run completely independent of other tasks / program operations
+> * It does not rely on other tasks
+> * The data it relies on cannot change during execution, only if it changes it itself. 
+> * As far as other tasks are conserned, it is indivisible and instantaneous. Effects on the systen is as if they were interleaved.
 
 ### What is a critical section?
 > *Your answer here*
